@@ -1,8 +1,7 @@
 // ==UserScript==
-// @name		SubSenderTib64
-// @version		2024.06.13
-// @author		leo7044 /edit by diegor361
-// @homepage		https://rapidly-decent-spider.ngrok-free.app/leoGameStats/
+// @name		SubSenderT69
+// @version		2025.03.05.1
+// @author		leo7044
 // @downloadURL		https://github.com/leo7044/CnC_TA/raw/master/SubSender.user.js
 // @updateURL		https://github.com/leo7044/CnC_TA/raw/master/SubSender.user.js
 // @description		Uvs automatisch raussenden
@@ -26,9 +25,10 @@
 					var WorldId = ClientLib.Data.MainData.GetInstance().get_Server().get_WorldId();
 					var AllianceId = ClientLib.Data.MainData.GetInstance().get_Alliance().get_Id();
 					var DataSub = {};
-					if (WorldId == 453) // TIB64, LocoUnchained
+					if (WorldId == 462 && AllianceId == 103) // T69, Unchained
 					{
-						DataSub = {name: "pvpsubelu", session: InstanceId};
+						DataSub = {name: "MWMA1972", session: InstanceId};
+
 					}
 					if (Object.keys(DataSub).length)
 					{
